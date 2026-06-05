@@ -1,0 +1,6 @@
+{
+  "name": "Khmer Gaming & Subscription Portal",
+  "description": "សមិទ្ធផលហ្គេមបង់ប្រាក់ប្រចាំថ្ងៃ ប្រចាំខែ និងប្រចាំឆ្នាំ ដោយស្វ័យប្រវត្ត លេងហ្គេមរវាង X & O និងអុកចត្រង្គ (Chess) ជាមួយ AI ឬលេងជាមួយមិត្តភក្តិ។",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
