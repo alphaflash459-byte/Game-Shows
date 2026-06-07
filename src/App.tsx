@@ -82,6 +82,19 @@ export default function App() {
       shadow: 'hover:shadow-pink-500/30',
       border: 'border-pink-500/20 group-hover:border-pink-400/50',
       buttonBg: 'bg-pink-500/10 hover:bg-pink-500/20 text-pink-400'
+    },
+    {
+      id: 'piano',
+      name: 'ព្យាណូ',
+      subtitle: 'Classic Piano',
+      url: 'https://piano-lilac-mu.vercel.app/',
+      icon: '🎹',
+      logoUrl: '',
+      description: 'លេងព្យាណូយ៉ាងសប្បាយរីករាយ។ បញ្ចេញទេពកោសល្យតន្ត្រីរបស់អ្នកនៅទីនេះ។',
+      gradient: 'from-slate-500 to-gray-700',
+      shadow: 'hover:shadow-slate-500/30',
+      border: 'border-slate-500/20 group-hover:border-slate-400/50',
+      buttonBg: 'bg-slate-500/10 hover:bg-slate-500/20 text-slate-400'
     }
   ];
 
