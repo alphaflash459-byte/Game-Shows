@@ -69,6 +69,19 @@ export default function App() {
       shadow: 'hover:shadow-purple-500/30',
       border: 'border-purple-500/20 group-hover:border-purple-400/50',
       buttonBg: 'bg-purple-500/10 hover:bg-purple-500/20 text-purple-400'
+    },
+    {
+      id: 'paint',
+      name: 'គូររូបភាព',
+      subtitle: 'Paint Drawing',
+      url: 'https://paint-drawing.vercel.app/',
+      icon: '🎨',
+      logoUrl: '',
+      description: 'បញ្ចេញសមត្ថភាពសិល្បៈរបស់អ្នកតាមរយៈការគូររូបភាពយ៉ាងសប្បាយរីករាយ។',
+      gradient: 'from-pink-500 to-rose-700',
+      shadow: 'hover:shadow-pink-500/30',
+      border: 'border-pink-500/20 group-hover:border-pink-400/50',
+      buttonBg: 'bg-pink-500/10 hover:bg-pink-500/20 text-pink-400'
     }
   ];
 
