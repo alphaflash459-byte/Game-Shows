@@ -56,6 +56,19 @@ export default function App() {
       border: 'border-emerald-500/20 group-hover:border-emerald-400/50',
       buttonBg: 'bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400',
       isCustomLogo: true
+    },
+    {
+      id: 'guessnumber',
+      name: 'ទាយលេខ',
+      subtitle: 'Guess the Number',
+      url: 'https://guess-the-number-beige-one.vercel.app/',
+      icon: '🔢',
+      logoUrl: '', 
+      description: 'សាកល្បងញាណរបស់អ្នក តើអ្នកអាចទាយលេខដែលប្រព័ន្ធបានលាក់ទុកបានត្រឹមត្រូវដែរឬទេ?',
+      gradient: 'from-purple-500 to-violet-700',
+      shadow: 'hover:shadow-purple-500/30',
+      border: 'border-purple-500/20 group-hover:border-purple-400/50',
+      buttonBg: 'bg-purple-500/10 hover:bg-purple-500/20 text-purple-400'
     }
   ];
 
@@ -280,13 +293,15 @@ export default function App() {
                          ) : (
                            <>
                              <div className="absolute inset-0 flex items-center justify-center bg-slate-800">{game.icon}</div>
-                             <img 
-                               src={game.logoUrl} 
-                               alt={`${game.name} Logo`} 
-                               className="w-full h-full object-cover absolute inset-0 z-10" 
-                               onError={(e) => { e.currentTarget.style.display = 'none'; }} 
-                               referrerPolicy="no-referrer"
-                             />
+                             {game.logoUrl ? (
+                               <img 
+                                 src={game.logoUrl} 
+                                 alt={`${game.name} Logo`} 
+                                 className="w-full h-full object-cover absolute inset-0 z-10" 
+                                 onError={(e) => { e.currentTarget.style.display = 'none'; }} 
+                                 referrerPolicy="no-referrer"
+                               />
+                             ) : null}
                            </>
                          )}
                       </div>
